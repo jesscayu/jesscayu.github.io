@@ -1,5 +1,26 @@
 * {
+    
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: darkblue;
-    
+    background-color: aliceblue
+}
+
+body {
+    margin-left: 40px;
+
+}
+h1 {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-decoration-line: underline;
+    font-size: 2.5em;
+    padding: 30px;
+}
+h2 {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
