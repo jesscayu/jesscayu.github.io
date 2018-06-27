@@ -1,26 +1,51 @@
 * {
     
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: darkblue;
-    background-color: aliceblue
+    color: white;
+    background-color: pink;
 }
 
 body {
-    margin-left: 40px;
+    /* margin-left: 40px; */
+}
+.hero-image {
+    background-image: /Users/jessicayu/Dev/jesscayu.github.io/IMG_0089.jpg;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    transform: translate (-50%, -50%)
+    color: white;
+    display: block;
+    background-color: pink;
 
 }
 h1 {
-    margin: auto;
-    width: 90%;
+    margin-top: 50px;
+    color: white;
     text-align: center;
     font-family: 'Raleway', sans-serif;
-    text-decoration-line: underline;
-    font-size: 2.5em;
-    padding: 30px;
+    font-size: 3em;
+    padding: 0px;
 }
 h2 {
     margin: auto;
     width: 90%;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+}
+p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
