@@ -5,11 +5,11 @@
     background-color: pink;
 }
 
-body {
-    /* margin-left: 40px; */
-}
+/* body {
+    /* margin-left: 40px; 
+} */
 .hero-image {
-    background-image: /Users/jessicayu/Dev/jesscayu.github.io/IMG_0089.jpg;
+    background-image: "/Users/jessicayu/Dev/jesscayu.github.io/IMG_0089.jpg";
     height: 50%;
     background-position: center;
     background-size: cover;
@@ -23,7 +23,7 @@ body {
     left: 0%;
     right: 0%;
     top: 0%;
-    transform: translate (-50%, -50%)
+    transform: translate (-50%, -50%);
     color: white;
     display: block;
     background-color: pink;
